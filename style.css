@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+  font-weight: 600;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+nav {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+#netlifylogo {
+  height: 70px;
+  width: 130px;
+}
+#Layer_1 {
+  height: 20px;
+  width: 20px;
+}
+span {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #676868;
+}
+.leftnav {
+  display: flex;
+  margin-left: 20vw;
+  align-items: center;
+  gap: 1vw;
+}
+#platformfeatures {
+  border: 2px solid transparent;
+  padding: 0.5vw 0.5vw;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: #676868;
+}
+#platformfeatures:hover {
+  border: 2px solid rgb(38, 38, 150);
+  border-radius: 6px;
+}
+#solutionsfeatures {
+  padding: 0.5vw 0.5vw;
+  border: 2px solid transparent;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: #676868;
+}
+#solutionsfeatures:hover {
+  border: 2px solid rgb(38, 38, 150);
+  border-radius: 6px;
+}
+#buildingfeatures {
+  height: 50px;
+  padding: 0.5vw 0.5vw;
+  border: 2px solid transparent;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: #676868;
+}
+#buildingfeatures:hover {
+  border: 2px solid rgb(38, 38, 150);
+  border-radius: 6px;
+}
+.rightnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3vw;
+  margin-right: 16vw;
+}
+#signup {
+  background-color: rgb(63, 63, 253);
+  color: rgb(248, 243, 243);
+  padding: 0.7vw 1vw;
+  border-radius: 8px;
+}
+#signup:hover {
+  background-color: #2036a1;
+}
+.mainsection {
+  height: 77%;
+  width: 100%;
+  background: linear-gradient(to top, #2841be, #1c2364);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.landingpagewelcomecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+}
+.landingpagewelcome {
+  font-size: 64.16px;
+  color: rgb(248, 243, 243);
+  font-weight: bolder;
+  cursor: auto;
+}
+.landingpageotherinfo {
+  font-size: 18px;
+  color: rgb(248, 243, 243);
+  line-height: 1.5vw;
+  cursor: auto;
+}
+.landingpageotherinfocontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.circle {
+  margin-left: 3px;
+  width: 12px;
+  height: 12px;
+  background-color: rgb(248, 243, 243);
+  border-radius: 50%;
+}
+.landingpagebtncontainer {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+#landingpagebtn1 {
+  background-color: #14d9d4;
+  padding: 0.7vw 2.2vw;
+  color: #0e5958;
+  font-weight: 900;
+  border-radius: 7px;
+}
+#landingpagebtn1:hover {
+  background-color: #8efbf7;
+}
+#landingpagebtn2 {
+  padding: 0.5vw 2.2vw;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+  font-weight: 900;
+}
+.videocontainer {
+  height: 20vw;
+  width: 35vw;
+  background-color: #1e2a7a;
+  position: absolute;
+  top: 30vw;
+  left: 33vw;
+  border-radius: 20px;
+  border: 1px solid #80abfa;
+}
