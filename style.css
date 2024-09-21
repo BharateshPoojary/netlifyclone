@@ -14,7 +14,7 @@ nav {
   height: 80px;
   background-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #netlifylogo {
   height: 70px;
@@ -23,6 +23,7 @@ nav {
 #Layer_1 {
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 span {
   font-size: 16px;
@@ -32,7 +33,7 @@ span {
 }
 .leftnav {
   display: flex;
-  margin-left: 20vw;
+  margin-left: 16px;
   align-items: center;
   gap: 1vw;
 }
@@ -78,7 +79,7 @@ span {
   justify-content: center;
   align-items: center;
   gap: 1.3vw;
-  margin-right: 16vw;
+  margin-right: 16px;
 }
 #signup {
   background-color: rgb(63, 63, 253);
@@ -90,13 +91,17 @@ span {
   background-color: #2036a1;
 }
 .mainsection {
-  height: 77%;
+  height: 100%;
   width: 100%;
-  background: linear-gradient(to top, #2841be, #1c2364);
+
+  background: linear-gradient(to top, white 20%, #2841be 20%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+}
+.topinfocontainer {
+  width: 100%;
+  background: linear-gradient(to top, #2841be, #1b215e);
 }
 .landingpagewelcomecontainer {
   display: flex;
@@ -113,7 +118,7 @@ span {
 .landingpageotherinfo {
   font-size: 18px;
   color: rgb(248, 243, 243);
-  line-height: 1.5vw;
+  line-height: 30px;
   cursor: auto;
 }
 .landingpageotherinfocontainer {
@@ -133,6 +138,7 @@ span {
   margin-top: 23px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 1vw;
 }
 #landingpagebtn1 {
@@ -153,12 +159,98 @@ span {
   font-weight: 900;
 }
 .videocontainer {
-  height: 20vw;
-  width: 35vw;
-  background-color: #1e2a7a;
-  position: absolute;
-  top: 30vw;
-  left: 33vw;
+  background-color: #1d2977;
+  width: 750px;
+  height: 550px;
+  margin-top: 80px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.videocircle {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 20px 6px rgba(255, 255, 255, 0.5);
+  background-color: rgb(248, 243, 243);
+  border-radius: 50%;
+}
+.bottominfocontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+#Composable {
+  font-size: 49px;
+  font-weight: bolder;
+  color: rgb(24, 26, 28);
+}
+#streamline {
+  margin-top: 20px;
+}
+.cardscontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.griditem {
+  height: 330px;
+  width: 380px;
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 6px #f6f6f7;
+}
+.cardsflexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 1.3vw 1.3vw;
+}
+.firstline {
+  width: fit-content;
+  background-color: #defffe;
+  color: #296968;
+  padding: 5px 10px;
+  font-weight: lighter;
   border-radius: 20px;
-  border: 1px solid #80abfa;
+}
+.secondline {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #000000;
+  padding: 10px 0;
+}
+.thirdline {
+  padding: 20px 0;
+  font-weight: lighter;
+}
+.fourthline {
+  text-decoration: underline;
+}
+.greenarrow {
+  color: #05bdba;
+  font-size: 20px;
+  margin-left: 10px;
+}
+#datalayer {
+  background-color: #edf4ff;
+  color: #7989ca;
+  font-weight: lighter;
+}
+#visualeditor {
+  background-color: #fdf5d8;
+  color: #603408;
+  font-weight: lighter;
+}
+#lastboxthirdline {
+  margin-bottom: 19px;
 }
