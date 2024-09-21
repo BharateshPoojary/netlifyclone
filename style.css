@@ -12,9 +12,13 @@ body {
 }
 nav {
   height: 80px;
-  background-color: white;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
   display: flex;
   justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 #netlifylogo {
   height: 70px;
@@ -160,13 +164,16 @@ span {
 }
 .videocontainer {
   background-color: #1d2977;
-  width: 750px;
+  width: 700px;
   height: 550px;
   margin-top: 80px;
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  background-image: url(videoimage.png);
+  border: 1px solid #80abfa;
 }
 .videocircle {
   cursor: pointer;
@@ -187,9 +194,16 @@ span {
   font-size: 49px;
   font-weight: bolder;
   color: rgb(24, 26, 28);
+  cursor: auto;
 }
-#streamline {
+.streamlinecontainer {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.streamlinecontainer > span {
+  cursor: auto;
 }
 .cardscontainer {
   display: grid;
@@ -222,16 +236,19 @@ span {
   padding: 5px 10px;
   font-weight: lighter;
   border-radius: 20px;
+  cursor: auto;
 }
 .secondline {
   font-size: 28px;
   font-weight: bolder;
   color: #000000;
   padding: 10px 0;
+  cursor: auto;
 }
 .thirdline {
   padding: 20px 0;
   font-weight: lighter;
+  cursor: auto;
 }
 .fourthline {
   text-decoration: underline;
@@ -253,4 +270,42 @@ span {
 }
 #lastboxthirdline {
   margin-bottom: 19px;
+}
+.bottombtncontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.bottombtncontainer > span {
+  color: white;
+  background-color: #2e51ed;
+  padding: 0.5vw 1vw;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.bottombtncontainer > span:hover {
+  background-color: #2036a1;
+}
+.footercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+}
+.footercontainer > span {
+  font-size: 37px;
+  color: black;
+  font-weight: bolder;
+  cursor: auto;
+}
+.imgcontainer {
+  margin-top: 29px;
+}
+.imgcontainer > img {
+  height: 5vw;
+  width: 7vw;
+  margin: 0 1vw;
 }
